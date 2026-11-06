@@ -1,0 +1,29 @@
+# local assistant / editor state
+.commandcode/
+.opencode-atmorouter/
+*.atmorouter-backup-*
+
+# secrets and local-only tooling
+apikey.md
+connect_atmorouter.py
+.env
+.env.*
+*.pem
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# local run artifacts
+runs/
+*.log
+*.bak
+*.orig
+
+# macOS
+.DS_Store
